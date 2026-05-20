@@ -1,0 +1,2 @@
+# AzureDeployStorage
+bicep - storageaccount
