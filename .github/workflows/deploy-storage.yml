@@ -14,8 +14,10 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    environment: test
     steps:
+      - name: Deploy to TEST
+        run: echo "Deploying to TEST"
       - name: Checkout code
         uses: actions/checkout@v4
 
